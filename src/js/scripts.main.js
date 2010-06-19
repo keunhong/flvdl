@@ -14,7 +14,7 @@ document.getElementById("getflv-select").onchange = function(){
 	if(getflv_select.value == "youtube"){
 		getflv_example.innerHTML = "http://youtube.com/watch?v=EZSUKFYX0FM";
 	}else if(getflv_select.value == "googlevideo"){
-		getflv_example.innerHTML = "http://video.google.com/videoplay?docid=120196847870845809";
+		getflv_example.innerHTML = "http://video.google.com/videoplay?docid=-3755471211753886032";
 	}else if(getflv_select.value == "myspace"){
 		getflv_example.innerHTML = "http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=9584089";
 	}else if(getflv_select.value == "veoh"){

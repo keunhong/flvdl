@@ -82,21 +82,22 @@ $videoViews = $matches[1];
 var ln_download = "<?=$ln->download;?>";
 var ln_download_link = "<?=$ln->download_link?>";
 </script>
-<title>video downloader: search | flixey.com</title>
+<title>video downloader search | flixey.com</title>
 </head>
 <body>
 <div align="center">
 	<div class="search-body">
-		<div class="top-logo"><a href="http://flixey.com"><img src="http://flixey.com/image/logo_whitebg.jpg" alt="flixey"></a><a href="http://video.flixey.com/?ln=<?=$_ln;?>"><span>main</span>page</a></div>
+		<div class="top-logo"><a href="http://video.flixey.com/?ln=<?=$_ln;?>"><img src="http://flixey.com/images/logo.png" alt="flixey" /></a></div>
+
+		<div class="search-body-search" align="center">
 		<div class="top-ln">
 			<a href="?ln=EN-us&amp;q=<?=urlencode($query);?>&amp;search_sort=<?=$searchSort;?>&amp;uploaded=<?=$uploaded;?>&amp;page=<?=$page;?>"><img src="http://niya.cc/images/flags/us.png" alt="EN-us" /></a>
 			<a href="?ln=EN-uk&amp;q=<?=urlencode($query);?>&amp;search_sort=<?=$searchSort;?>&amp;uploaded=<?=$uploaded;?>&amp;page=<?=$page;?>"><img src="http://niya.cc/images/flags/gb.png" alt="EN-uk" /></a>
 			<a href="?ln=KO-kr&amp;q=<?=urlencode($query);?>&amp;search_sort=<?=$searchSort;?>&amp;uploaded=<?=$uploaded;?>&amp;page=<?=$page;?>"><img src="http://niya.cc/images/flags/kr.png" alt="KO-kr" /></a>
 			<a href="?ln=JA-jp&amp;q=<?=urlencode($query);?>&amp;search_sort=<?=$searchSort;?>&amp;uploaded=<?=$uploaded;?>&amp;page=<?=$page;?>"><img src="http://niya.cc/images/flags/jp.png" alt="JA-jp" /></a>
 			<a href="?ln=SV-se&amp;q=<?=urlencode($query);?>&amp;search_sort=<?=$searchSort;?>&amp;uploaded=<?=$uploaded;?>&amp;page=<?=$page;?>"><img src="http://niya.cc/images/flags/se.png" alt="SV-se" /></a>
-		</div><br />
-
-		<div class="search-body-search" align="center">
+		</div>
+		<p class="main-body-get-form-directions"><?=$ln->directions_search;?></p>
 				<form name="search" id="search" action="./" method="get">
 				<input type="hidden" name="ln" value="<?=$_ln;?>" />
 				<table class="search-body-search-form">

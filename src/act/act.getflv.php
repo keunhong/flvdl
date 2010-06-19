@@ -280,10 +280,10 @@ switch($site){
 		$vars = explode("|",$id);
 		$result = array();
 		$result[url] = "http://flvcdn.pandora.tv/flv/_user/".substr($vars[0],0,1)."/".substr($vars[0],1,1)."/".$vars[0]."/".$vars[1].".flv";
-		
+
 		$getflv = new getflv;
 		$getflv->setvar("result_url",$result[url]);
-		$result[url] = $getflv->getRedirectedUrl();
+		//$result[url] = $getflv->getRedirectedUrl();
 
 		$html = file_get_contents("http://flvr.pandora.tv/flv2pan/flv_trs.dll/flash_title?url=".$vars[1]);
 		$html = mb_convert_encoding($html, "UTF-8", "EUC-KR");
@@ -296,10 +296,10 @@ switch($site){
 			$result[url] = "false";
 		}
 		if(!$result[title]){
-			$result[title] = "false";
+			$result[title] = "[temporarily unavailable]";
 		}
 		if(!$result[thumbnail]){
-			$result[thumbnail] = "false";
+			$result[thumbnail] = "about:blank";
 		}
 
 		echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
@@ -494,7 +494,7 @@ switch($site){
 			1, // match_no
 			false, // redirect
 			false, // extra_url
-			"/title\" content=\"(.*)\" \/><meta name=\"description/i", // title_reg
+			"/<meta name=\"title\" content=\"(.*)\ \/><meta name=\"video_height/i", // title_reg
 			1, // title_match_no
 			false, // thumbnail_direct
 			false, // thumbnail_url_prefix

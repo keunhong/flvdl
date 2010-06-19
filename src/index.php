@@ -39,15 +39,16 @@ var mgoon_warn = "<?=$ln->mgoon_warn?>";
 <body>
 <div align="center">
 	<div class="main-body">
-		<div class="main-top-logo"><a href="http://flixey.com"><img src="http://flixey.com/image/logo_whitebg.jpg" alt="flixey"></a></div>
+		<div class="main-top-logo"><a href="http://flixey.com"><img src="http://flixey.com/images/logo.png" alt="flixey" /></a>
+</div>
+		<div class="main-body-get" align="center">
 		<div class="main-top-ln">
 			<a href="?ln=EN-us"><img src="http://niya.cc/images/flags/us.png" alt="EN-us" /></a>
 			<a href="?ln=EN-uk"><img src="http://niya.cc/images/flags/gb.png" alt="EN-uk" /></a>
 			<a href="?ln=KO-kr"><img src="http://niya.cc/images/flags/kr.png" alt="KO-kr" /></a>
 			<a href="?ln=JA-jp"><img src="http://niya.cc/images/flags/jp.png" alt="JA-jp" /></a>
 			<a href="?ln=SV-se"><img src="http://niya.cc/images/flags/se.png" alt="SV-se" /></a>
-		</div><br />
-		<div class="main-body-get" align="center">
+		</div>
 			<p class="main-body-get-form-directions"><?=$ln->directions_direct;?></p>
 				<form name="getflv" id="getflv" action="./" method="post">
 				<table class="main-body-get-form">
@@ -152,6 +153,7 @@ var mgoon_warn = "<?=$ln->mgoon_warn?>";
 			<!--<p class="foot_info"><?=$ln->siteadd;?><b>vide<span style="display:none;">3|"RU@gub</span>o@f<span style="display:none;">BG$4SYb</span>lixey.co<span style="display:none;">Y,Q~K</span>m<span style="display:none;">[[eSJ~</span></b></p>-->
 			<p>powered by <a href="http://flixey.com/">flixey.com</a></p>
 		</div>
+<br />
 	</div>
 </div>
 

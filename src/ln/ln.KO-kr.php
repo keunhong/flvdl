@@ -23,18 +23,19 @@ $ln->setvar("naver","네이버(naver)");
 $ln->setvar("daum","다음 tv팟");
 $ln->setvar("metacafe","메타카페(metacafe)");
 
-$ln->setvar("directions_direct","동영상을 내려받으려면 동영상의 주소를 복사하고 아래에 붙여넣으세요.");
+$ln->setvar("directions_direct","URL로 비디오 다운받기");
 $ln->setvar("example","예");
 $ln->setvar("mgoon_warn","엠군 링크는 몇 초간 밖에 유효하지 않으므로 다운로드가 되지 않을 경우 다시 시도하세요");
 
 $ln->setvar("result","결과");
 $ln->setvar("download_link","여기를 클릭하시면 내려받기가 시작됩니다");
 
-$ln->setvar("directions_search","비디오를 검색하고 바로 다운로드하기.");
+$ln->setvar("directions_search","검색");
 $ln->setvar("search","검색하기");
 
 $ln->setvar("siteadd","추가되었으면 하는 사이트가 있으면 이 주소로 연락해주세요: ");
 
+$ln->setvar("donate_descr","이 사이트의 유지를 위해 스폰서해주세요: ");
 
 
 /***********************************************************************

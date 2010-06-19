@@ -22,17 +22,19 @@ $ln->setvar("naver","Naver");
 $ln->setvar("daum","Daum tvPot");
 $ln->setvar("metacafe","MetaCafe");
 
-$ln->setvar("directions_direct","Copy and paste the URL of the video below to download.");
+$ln->setvar("directions_direct","Download video from URL");
 $ln->setvar("example","Example");
 $ln->setvar("mgoon_warn","mgoon links are vaild only for a few seconds, if the link doesn't work, try again");
 
 $ln->setvar("result","result");
 $ln->setvar("download_link","click here to download the video");
 
-$ln->setvar("directions_search","Search for a video and download directly.");
+$ln->setvar("directions_search","Search");
 $ln->setvar("search","search");
 
 $ln->setvar("siteadd","Want a site added? Contact us at ");
+
+$ln->setvar("donate_descr","Please donate to keep this site running: ");
 
 /***********************************************************************
 ***	search

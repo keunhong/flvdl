@@ -22,17 +22,20 @@ $ln->setvar("naver","ネイバー(naver)");
 $ln->setvar("daum","Daum tvPot");
 $ln->setvar("metacafe","メターカフェー(metacafe)");
 
-$ln->setvar("directions_direct","ビデオの住所をコッピして下へ入力してください。");
+$ln->setvar("directions_direct","URLでダウンロードする");
 $ln->setvar("example","例え");
 $ln->setvar("mgoon_warn","mgoonのリンクは何秒間だけ有効なので、縁決が出来ない時は又試して下さい");
 
 $ln->setvar("result","結果");
 $ln->setvar("download_link","ここをクリックすればダウンロードが始めます。");
 
-$ln->setvar("directions_search","ビデオを検索して直ぐダウンロードする");
+$ln->setvar("directions_search","検索");
 $ln->setvar("search","検索する");
 
 $ln->setvar("siteadd","ダウンロードしたいビデオが有るサイトが有ればこの住所にメールを下さい: ");
+
+$ln->setvar("donate_descr","このサイトを維持するためにスポンサーしてください: ");
+
 
 /***********************************************************************
 ***	search

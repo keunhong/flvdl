@@ -33,6 +33,9 @@ $ln->setvar("search","sök");
 
 $ln->setvar("siteadd","Vill du lägga till en sida? Maila sidans URL till ");
 
+$ln->setvar("donate_descr","Please donate to keep this site running: ");
+
+
 /***********************************************************************
 ***	search
 ***********************************************************************/
