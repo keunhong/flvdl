@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:tahoma;
+}
+img{
+	border:none;
+}
+
+.main-body{
+	width:800px;
+	text-align:center;
+}
+
+.main-top-logo{
+	width:auto;
+	text-align:left;
+	font-size:30px;
+}
+.main-top-logo a{
+	color:#000000;
+	text-decoration:none;
+}
+
+.main-top-ln{
+	float:right;
+}
+
+.main-top-logo span{
+	color:#697c89;
+}
+
+.main-body-get{
+	border:1px #7f9db9 solid;
+	padding:7px;
+	background-color:#90a9bb;
+}
+
+.main-body-get-form{
+	border-collapse:collapse;
+	border:none;
+	width:auto;
+}
+
+.main-body-get-form tr{
+	border-collapse:collapse;
+	border:none;
+}
+
+.main-body-get-form-directions{
+	text-align:left;
+	font-size:12px;
+	margin:5px;
+	color:#ffffff;
+}
+
+.main-body-get-form-example{
+	text-align:left;
+	font-size:12px;
+	margin:5px;
+	color:#ffffff;
+}
+
+#main-body-get-form-errors{
+	float:right;
+	font-weight:bold;
+	color:#ffffff;
+	margin:5px;
+	font-size:12px;
+}
+
+/* getflv form */
+#getflv{
+	padding:0px;
+	margin:0px;
+}
+
+#getflv-input{
+	width:500px;
+	height:16px;
+	padding:2px 1px 1px 3px;
+	border:1px #7f9db9 solid;
+	font-size:11px;
+	color:#777777;
+	margin:0px;
+}
+
+#getflv-select{
+	width:170px;
+	font-size:12px;
+	color:#777777;
+	margin:0px;
+}
+
+#getflv-submit{
+	width:90px;
+	height:21px;
+	border:1px #697c89 solid;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	background-color:#8197a7;
+	margin:0px;
+	margin-left:2px;
+}
+
+#getflv-submit:hover{
+	background-color:#90a8b9;
+}
+
+.main-body-get-form-submit-td{
+	width:91px;
+	text-align:center;
+}
+
+#main-body-get-form-loader{
+	display:none;
+}
+
+#main-body-result{
+	display:none;
+}
+
+#main-body-result-title{
+	border:1px #7f9db9 solid;
+	padding:7px;
+	background-color:#90a9bb;
+	font-size:12px;
+	color:#ffffff;
+	text-align:left;
+	font-weight:bold;
+}
+#main-body-result-content{
+	height:95px;
+	border:1px #7f9db9 solid;
+	border-top:none;
+	padding:10px;
+	font-size:12px;
+	text-align:left;
+}
+
+.result_thumbnail{
+	height:94px;
+	width:150px;
+	float:left;
+	margin-right:10px;
+	border:1px #7f9db9 solid;
+}
+
+.download_link{
+	font-weight:bold;
+	font-size:12px;
+	color:#555555;
+	text-decoration:none;
+}
+
+
+
+
+
+label{
+	font-size:12px;
+	color:#ffffff;
+}
+
+
+
+
+.main-body-search{
+	border:1px #7f9db9 solid;
+	padding:7px;
+	background-color:#90a9bb;
+}
+
+.main-body-search-form{
+	border-collapse:collapse;
+	border:none;
+	width:auto;
+}
+
+.main-body-search-form tr{
+	border-collapse:collapse;
+	border:none;
+}
+
+.main-body-search-form-directions{
+	text-align:left;
+	font-size:12px;
+	margin:5px;
+	color:#ffffff;
+}
+.main-body-search-form-vars{
+	text-align:left;
+	font-size:12px;
+	margin:5px;
+	color:#ffffff
+}
+
+
+/* search form */
+#search{
+	padding:0px;
+	margin:0px;
+}
+
+#search-input{
+	width:500px;
+	height:16px;
+	padding:2px 1px 1px 3px;
+	border:1px #7f9db9 solid;
+	font-size:11px;
+	color:#777777;
+	margin:0px;
+}
+
+#search-select{
+	width:170px;
+	font-size:12px;
+	color:#777777;
+	margin:0px;
+}
+
+#search-submit{
+	width:90px;
+	height:21px;
+	border:1px #697c89 solid;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	background-color:#8197a7;
+	margin:0px;
+	margin-left:2px;
+}
+
+#search-submit:hover{
+	background-color:#90a8b9;
+}
+
+.main-body-search-form-submit-td{
+	width:91px;
+	text-align:center;
+}
+
+
+
+
+.foot_info{
+	font-size:15px;
+	margin:15px;
+	padding:0px;
+}
+
+.foot_info img{
+	vertical-align:middle;
+	margin:0px;
+	padding:0px;
+}
+
+.main-bottom{
+	border:1px #7f9db9 solid;
+	padding:3px;
+	background-color:#90a9bb;
+	font-size:12px;
+	color:#ffffff;
+	text-align:center;
+}
+
+.main-bottom a{
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+}
